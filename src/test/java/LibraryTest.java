@@ -40,7 +40,10 @@ public class LibraryTest {
     @Test
     public void AddBookToMaxCapacity(){
         library.addBook(books);
-        library.addBook
+        library.addBook(books);
+        library.addBook(books);
+        library.addBook(books);
+        assertEquals(3, library.bookCount());
     }
 
 
