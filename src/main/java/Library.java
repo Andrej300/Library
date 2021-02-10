@@ -25,9 +25,12 @@ public class Library {
     }
 
     public int getCapacity() {
-        return capacity;}
+        return capacity;
     }
+
 }
+
+
 
 
 

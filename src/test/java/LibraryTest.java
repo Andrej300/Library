@@ -32,7 +32,18 @@ public class LibraryTest {
 
     }
 
-  
+    @Test
+    public void hasMaxCapacity(){
+        assertEquals(3, library.getCapacity());
+    }
+
+    @Test
+    public void AddBookToMaxCapacity(){
+        library.addBook(books);
+        library.addBook
+    }
+
+
 
 
 
